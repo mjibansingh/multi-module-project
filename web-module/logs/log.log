@@ -3876,3 +3876,29 @@ Unconditional classes:
 2022-02-25 12:05:44.065 DEBUG 17340 --- [http-nio-5000-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : After request [GET /swagger-resources/configuration/security, client=127.0.0.1, session=0F9003A480710B52FB6F04261C00A029]
 2022-02-25 13:38:52.830  INFO 17340 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
 2022-02-25 13:38:53.317  INFO 17340 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-25 19:14:48.156  INFO 5876 --- [restartedMain] com.databasket.web.WebApplication        : Starting WebApplication using Java 1.8.0_121 on DESKTOP-V04M8JJ with PID 5876 (D:\github\multi-module-project\web-module\target\classes started by hp in D:\github\multi-module-project\web-module)
+2022-02-25 19:14:48.156 DEBUG 5876 --- [restartedMain] com.databasket.web.WebApplication        : Running with Spring Boot v2.5.4, Spring v5.3.9
+2022-02-25 19:14:48.156  INFO 5876 --- [restartedMain] com.databasket.web.WebApplication        : No active profile set, falling back to default profiles: default
+2022-02-25 19:14:48.272  INFO 5876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-25 19:14:48.272  INFO 5876 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-25 19:14:50.045  INFO 5876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-25 19:14:50.192  INFO 5876 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 6 JPA repository interfaces.
+2022-02-25 19:14:51.560  INFO 5876 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@43606bb0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-25 19:14:51.563  INFO 5876 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-02-25 19:14:52.218  INFO 5876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2022-02-25 19:14:52.234  INFO 5876 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-25 19:14:52.234  INFO 5876 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-02-25 19:14:52.519  INFO 5876 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-25 19:14:52.519  INFO 5876 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4247 ms
+2022-02-25 19:14:52.898 DEBUG 5876 --- [restartedMain] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2022-02-25 19:14:56.222  INFO 5876 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-25 19:14:57.431  WARN 5876 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-25 19:14:57.531  INFO 5876 --- [restartedMain] com.databasket.web.WebApplication        : Initializaed app at UTC timezone.
+2022-02-25 19:14:57.578  INFO 5876 --- [restartedMain] com.databasket.auth.config.AppBootstrap  : Initialise applications...
+2022-02-25 19:14:58.997  INFO 5876 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2022-02-25 19:14:59.931  INFO 5876 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-02-25 19:15:00.338  INFO 5876 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 5000 (http) with context path ''
+2022-02-25 19:15:00.354  INFO 5876 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-02-25 19:15:00.385  INFO 5876 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-02-25 19:15:00.416  INFO 5876 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-02-25 19:15:00.971  INFO 5876 --- [restartedMain] com.databasket.web.WebApplication        : Started WebApplication in 13.588 seconds (JVM running for 15.391)
